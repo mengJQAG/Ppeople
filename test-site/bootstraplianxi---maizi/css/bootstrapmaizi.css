@@ -1,0 +1,230 @@
+body{font-family: "Microsoft YaHei", sans-serif;}
+/*菜单*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color:  #40D2B1;
+    background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #1C9982;
+}
+/*首页*/
+#home{
+    background: url("../image/home-bg.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: #FFFFFF;
+    margin-top: 70px;
+    text-align: center;
+}
+.lvjing{
+    width: 100%;
+    height: 100%;
+    padding: 90px 0;
+    background:rgba(0,0,0,0.7);
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+/*bbs*/
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+#bbs img{
+    margin: 0 auto;
+}
+#bbs h3{
+    font-weight: bold;
+}
+.luntan:hover{
+    background-color: whitesmoke;
+    opacity:1;
+}
+/*HTML5*/
+#html5{
+   background: #F8F8F8;
+    padding: 80px 0;
+}
+#html5 h2{
+    font-weight: bold;
+}
+#html5 img{
+    margin: 0 auto;
+}
+#html5 p{
+    line-height: 40px;
+}
+#html5 span{
+    background-color:#40D2B1 ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    margin-right: 20px;
+}
+/*bootstrap区域*/
+#bootstrap{
+    padding: 80px 0;
+}
+#bootstrap h2{
+    font-weight: bold;
+}
+#bootstrap img{
+    margin: 0 auto;
+}
+#bootstrap p{
+    line-height: 24px;
+}
+#bootstrap span{
+    background-color:#40D2B1 ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    margin-right: 20px;
+}
+/*course*/
+#course{
+    padding: 80px 0px;
+    background: #F8F8F8;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+#course img{
+    margin: 0 auto;
+}
+.course{
+    background: white;
+    margin-top: 20px;
+}
+#course a{
+    text-decoration: none;
+}
+#course .btn{
+    background: rgba(240, 248, 255, 0.02);
+    border: solid 1px #40D2B1;
+    color: black;
+    border-radius:0 ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 8px 40px;
+    transition: all 0.4s;
+}
+#course .btn:hover{
+    background: #40D2B1;
+    color: white;
+}
+/*app下载*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    text-align: center;
+}
+#app p{
+    line-height: 18px;
+    text-indent: 24px;
+}
+#app img{
+    margin: 0 auto;
+}
+#app a{
+    text-decoration: none;
+}
+#app .btn{
+    background: #40D2B1;
+    border: solid 1px #40D2B1;
+    color: white;
+    border-radius:0 ;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    transition: all 0.4s;
+}
+#app .btn:hover{
+    background: rgb(40,142,120);
+}
+/*contact*/
+#contact{
+    background: url("../image/contact-bg.png") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.lvjing2{
+    width: 100%;
+    height: 100%;
+    padding: 90px 50px;
+    background: rgba(0,0,0,0.7);
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+#contact p{
+    line-height: 25px;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+#contact textarea .form-control{
+    height: auto;
+    /*可以使用在textarea标签中天剑rows="6"属性控制高度*/
+}
+#contact input[type="submit"]{
+    background:  #40D2B1;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background:rgb(40,142,120);
+}
+/*footer*/
+footer{
+    text-align: center;
+    line-height: 60px;
+    font-weight: 400;
+}

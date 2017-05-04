@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>响应式实战项目</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrapmaizi.css" type="text/css" rel="stylesheet">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!---导航-->
+<nav class = "navbar navbar-default navbar-fixed-top">
+    <div class = "container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href = "lianxi5.html" class="navbar-brand">Javascript学习</a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class = "navbar-collapse collapse">
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "#home">首页</a></li>
+                <li><a href = "#bbs">论坛</a></li>
+                <li><a href = "#html5">前端开发</a></li>
+                <li><a href = "#course">最新课程</a></li>
+                <li><a href = "#app">移动APP</a></li>
+                <li><a href = "#contact">联系我们</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!--导航-->
+
+<!--home-->
+<section id="home">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="col-md-1"> </div>
+                <div class="col-md-10">
+                    <h1>bootstrap实战课程等你来战！</h1>
+                    <p>课程适用于：1.WEB开发人员；2.网站维护人员、管理人员<br />
+                        培训技能的目标：使用bootstrap框架快速构建响应式网页，颠覆传统WEB前端
+                    </p>
+                    <img src="image/php.jpg" class="img-responsive" alt="php">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--bbs-->
+<section id="bbs">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-4 luntan wow rollIn" data-wow-duration="1s">
+               <a href="lianxi5.html"> <img src="image/a.png"  class="img-responsive" alt="Adroid开发"></a>
+                <h3>Adroid开发 </h3>
+                <p>Android开发技术交流、问题求助、实战案例分享</p>
+            </div>
+            <div class="col-md-4 luntan wow hinge" data-wow-duration="2s">
+              <a href="lianxi5.html">  <img src="image/i.png" class="img-responsive" alt="IOS开发"></a>
+                <h3>IOS开发 </h3>
+                <p>ios开发技术交流,海量ios实战干货分享</p>
+            </div>
+            <div class="col-md-4 luntan wow rollIn" data-wow-duration="2s">
+               <a href="lianxi5.html"> <img src="image/b.png" class="img-responsive" alt="嵌入式底层开发"></a>
+                <h3>嵌入式底层开发 </h3>
+                <p>底层嵌入式开发、实战案例等技术交流分享</p>
+            </div>
+        </div>
+    </div>
+    </section>
+<!--bbs-->
+
+<!--html5-->
+<section id="html5">
+    <div class="container">
+        <div class="col-md-6 wow slideInLeft" data-wow-duration="2s" data-wow-offset="10">
+            <h2>HTML5前端开发</h2>
+            <p>一线资深前端开发工程师倾情打造！助你完成普通程序员到优秀工程师的华丽升级！</p>
+            <p><span class="glyphicon glyphicon-grain"></span>使用HTML5与CSS3技术轻松实现设备自适应展示。</p>
+            <p><span class="glyphicon glyphicon-grain" ></span>清晰明了的语义代码结构，更高的可读性、更利于页面维护的。</p>
+        </div>
+        <div class="col-md-6 wow slideInRight" data-wow-duration="2s" data-wow-offset="10">
+            <img src="image/html5.jpg" class="img-responsive" alt="html5">
+        </div>
+    </div>
+</section>
+<!--html5-->
+
+<!--bootstrap-->
+<section id="bootstrap">
+    <div class="container">
+        <div class="col-md-6">
+            <img src="image/Bootstrap.jpg" class="img-responsive" alt="bootstrap">
+        </div>
+        <div class="col-md-6">
+            <h2>bootstrap实战视频</h2>
+            <p>Bootstrap是最欢迎的HTML、CSS和JS框架，用于开发响应式布局、移动设备优先的WEB项目。</p>
+            <p><span class="glyphicon glyphicon-grain"></span>你的网站和应用能子啊Bootstrap的帮助下通过同一份代码快速、有效适配手机、平板、PC设备。</p>
+            <p><span class="glyphicon glyphicon-grain" ></span>Bootstrap提供了全面。美观的文档。你能在这里找到关于HTML元素、HTML和CSS组件、JQuery插件方面的所有详细文档。</p>
+        </div>
+
+    </div>
+</section>
+<!--bootstrap-->
+
+<!--course-->
+<section id="course">
+    <div class="container wow fadeIn" data-wow-duration="5s" data-wow-offset="10">
+        <div class="row">
+            <h2>最新课程</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程" >
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程" >
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="image/swift.jpg" class="img-responsive" alt="学习课程">
+                    <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"> 加入学习 </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--course-->
+
+<!--app-->
+<section id="app">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 wow slideInLeft" data-wow-duration="2s">
+                <h2>麦子学院移动APP下载</h2>
+                <p>全新UI交互，与新网站数据同步，更加丰富的课程，开启精彩无限，
+                    语音搜索课程，喊出你想要的课程，一件收藏，方便自己重复学习，
+                    离线下载课程，在哪儿都能开！</p>
+                <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"><span class="glyphicon glyphicon-save"></span> iPhone版 </a>
+                <a href="lianxi5.html" class="btn btn-primary" target="_blank" role="button"><span class="glyphicon glyphicon-save"></span> Android版 </a>
+            </div>
+            <div class="col-md-6 wow slideInRight" data-wow-duration="2s">
+                <img src="image/app-banner.jpg" class="img-responsive" alt="app下载">
+            </div>
+        </div>
+    </div>
+</section>
+<!--app-->
+<!--contact-->
+<section id="contact">
+    <div class="container lvjing2">
+        <div class="row">
+            <div class="col-md-6">
+                <h2><span class="glyphicon glyphicon-leaf"></span>  联系小麦</h2>
+                <p>麦子学院是成都麦子信息技术有限公司旗下一个IT在线教育平台，
+                    目前已有30万注册用户，10万以上APP下载量，5000小时视频内容。
+                    我们从不说空话，专注于IT在线教育，脱离传统教育的束缚，
+                    让你走哪学哪，想学就学。逗比的老师，贴心的助教，
+                    在这儿你能感受到来自五 湖四海伙伴们热情和踏实的学习态度！</p>
+                <address>
+                    <p><span class="glyphicon glyphicon-home"></span> &nbsp;地址:成都市高新区天府软件园D5-11</p>
+                    <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;联系电话：028-86567913</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;邮箱:hr@maiziedu.com</p>
+                </address>
+            </div>
+            <div class="col-md-6">
+                <form action="#" method="post">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="您的姓名">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email"  class="form-control" placeholder="您的邮箱">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="标题">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" placeholder="留言内容" ></textarea>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="submit" class="form-control" value="提交"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+
+<!--footer-->
+<footer >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 <p>Copyright&nbsp;©&nbsp;2015-2017&nbsp;www.maiziedu.com  蜀ICP备13014270号-4</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    $(function(){
+//        导航跳转效果插件-实现页面缓慢跳转
+        $('.nav').singlePageNav({
+            offset:70
+        });
+//        小屏幕导航点击关闭菜单
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');   /*collapse实现向上折叠隐藏*/
+        });
+//导航动画
+
+//
+        new WOW().init();
+    })
+</script>
+
+
+</body>
+</html>

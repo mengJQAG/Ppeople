@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>响应式实战项目</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrapmaizi.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!---导航-->
+<nav class = "navbar navbar-default ">
+    <div class = "container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-collapse">
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+            </button>
+            <a href = "index.html" class = "navbar-brand">Maizi Admin</a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class = "navbar-collapse collapse">
+            <ul class = "nav navbar-nav ">
+                <li>
+                    <a href = "index.html">
+                        <span class = "glyphicon glyphicon-home"></span>
+                        &nbsp;&nbsp;后台首页
+                    </a>
+                </li>
+                <li>
+                    <a href = "user_list.html">
+                        <span class="glyphicon glyphicon-user"></span>
+                        &nbsp;&nbsp;用户管理
+                    </a>
+                </li>
+                <li class = "active">
+                    <a href = "content.html">
+                        <span class = "glyphicon glyphicon-list-alt"></span>
+                        &nbsp;&nbsp;内容管理
+                    </a>
+                </li>
+                <li>
+                    <a href = "tag.html">
+                        <span class="glyphicon glyphicon-tag"></span>
+                        &nbsp;&nbsp;标签管理
+                    </a>
+                </li>
+            </ul>
+            <ul class = "nav navbar-nav navbar-right">
+                <li class = "dropdown">
+                    <a id = "dLabel" type = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded="false">
+                        admin
+                        <span class = "caret"></span>
+                    </a>
+                    <ul class = "dropdown-menu" aria-labelledby = "dLabel">
+                        <li>
+                            <a href = "#">
+                                <span class = "glyphicon glyphicon-move"></span>
+                                &nbsp;&nbsp;前台首页
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <span class = "glyphicon glyphicon-user"></span>
+                                &nbsp;&nbsp;个人主页
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <span class = "glyphicon glyphicon-cog"></span>
+                                &nbsp;&nbsp;个人设置
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <span class="glyphicon glyphicon-credit-card"></span>
+                                &nbsp;&nbsp;账户中心
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <span class = "glyphicon glyphicon-heart"></span>
+                                &nbsp;&nbsp;我的收藏
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href = "#">
+                        <span class = "glyphicon glyphicon-off"></span>
+                        退出
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!--导航-->
+<!--内容管理-管理文章-->
+<section>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-2">
+                <ul class = "list-group">
+                    <li class = "list-group-item active">
+                        <a href = "content.html">
+                            管理文章
+                        </a>
+                    </li>
+                    <li class = "list-group-item">
+                        <a href = "content-post.html">
+                            添加文章
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class = "col-md-10">
+                <div class = "page-header">
+                    <h1>内容管理</h1>
+                </div>
+                <ul class = "nav nav-tabs">
+                    <li class = "active">
+                        <a href = "content.html">
+                            管理文章
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "content-post.html">
+                            <span>添加文章</span>
+                        </a>
+                    </li>
+                </ul>
+                    <table class = "table">
+                        <thead>
+                            <tr>
+                                <th scope = "row" width = "60%" >文章标题</th>
+                                <th scope = "row">作者</th>
+                                <th scope = "row">发布时间</th>
+                                <th scope = "row">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope = "row">泛Mooc职业教育， 效果和就业为王</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle" data-toggle = "dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li>
+                                                <a href="#">编辑</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">删除</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">全局置顶</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">产品经理常犯的7大错误，你造吗？</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle" data-toggle = "dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li>
+                                                <a href="#">编辑</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">删除</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">全局置顶</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">如何正确使用python日志系统</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle " data-toggle = "dropdown"
+                                                  role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li><a href="#">编辑</a></li>
+                                            <li><a href="#">删除</a></li>
+                                            <li><a href="#">全局置顶</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">C语言const修饰符的怎么使用？</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle" data-toggle = "dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li><a href = "#">编辑</a></li>
+                                            <li><a href = "#">删除</a></li>
+                                            <li><a href = "#">全局置顶</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">Android开发用onCreateOptionsMenu()如何创</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle " data-toggle="dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li><a href = "#">编辑</a></li>
+                                            <li><a href = "#">删除</a></li>
+                                            <li><a href = "#">全局置顶</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">怎样才能成为优秀的iOS开发工程师</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li><a href = "#">编辑</a></li>
+                                            <li><a href = "#">删除</a></li>
+                                            <li><a href = "#">全局置顶</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope = "row">Android今年推出了些什么新技术？</th>
+                                <td>朱朝兵</td>
+                                <td>2015/08/08</td>
+                                <td>
+                                    <div role = "presentation" class = "dropdown">
+                                        <button class = "btn btn-default dropdown-toggle" data-toggle = "dropdown"
+                                                role = "button" aria-haspopup = "true" aria-expanded = "false">
+                                            操作 <span class = "caret"></span>
+                                        </button>
+                                        <ul class = "dropdown-menu">
+                                            <li><a href="#">编辑</a></li>
+                                            <li><a href="#">删除</a></li>
+                                            <li><a href="#">全局置顶</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <nav aria-label = "Page navigation" class = "pull-right">
+                    <ul class = "pagination">
+                        <li>
+                            <a href = "#" aria-label = "Previous">
+                                <span aria-hidden = "true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">1 </a>
+                        </li>
+                        <li>
+                            <a href="#">2 </a>
+                        </li>
+                        <li>
+                            <a href="#">3 </a>
+                        </li>
+                        <li>
+                            <a href="#">4 </a>
+                        </li>
+                        <li>
+                            <a href="#">5 </a>
+                        </li>
+                        <li>
+                            <a href="#">6 </a>
+                        </li>
+                        <li>
+                            <a href = "#" aria-label = "Next">
+                                <span aria-hidden = "true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer >
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-12">
+                <p>Copyright&nbsp;©&nbsp;2015-2017&nbsp;www.maiziedu.com  蜀ICP备13014270号-4</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

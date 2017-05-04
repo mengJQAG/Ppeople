@@ -1,0 +1,65 @@
+body{font-family: "Microsoft YaHei", sans-serif;}
+/*进度条*/
+.progress{
+    margin-bottom: 3px;
+}
+/*头像*/
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+/*留言按钮的边距*/
+button.btn.btn-default {
+    margin: 0px ;
+}
+/*footer*/
+footer{
+    text-align: center;
+    line-height: 60px;
+    font-weight: 400;
+}
+/*user_list.html*/
+.page-header{
+    margin-top: 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+}
+.active a{
+    color:white ;
+    padding-bottom: 10px;
+}
+.col-md-10 li>a>span{
+    color: #337ab7;
+}
+.form-group {
+    margin-top: 15px;
+}
+form.user_search{
+    border: solid 1px #ddd;
+    padding: 10px;
+    border-top: none;
+}
+ul>li{
+    list-style: none;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    padding-top: 0;
+}
+/*content-post*/
+.checkbox button.btn.btn-default{
+    margin-top: -3px;
+}
+/*tag*/
+.alert.alert-info.alert-dismissible.pull-left {
+    margin-left: 15px;
+    margin-top: 15px;
+}
